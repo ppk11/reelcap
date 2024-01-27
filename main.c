@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
         } else {
             double x = (3.14*(pow((srednica1),2))*dlugosc);
             double y = pow(srednica2,2)*3.14;
-            printf("Wynik: %.lf\n", x/y);
+            printf("Wynik: %.lfm\n", x/y);
         }
     }
     return EXIT_SUCCESS;
